@@ -1,0 +1,77 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Admission Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="block1">
+                <div><img src="../assets/ame_logo.png" alt="AME COLLEGE LOGO" title="AME COLLEGE" height="80px"></div>
+                <h1 class="heading">AME Degree College Admission Form</h1>
+            </div>
+            <form action="#" method="">
+                <div class="block2">
+                    <p><label for="name">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="Enter your Name">
+                    </p>
+                    <p>
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" name="dob" id="dob" >
+                    </p>
+                    <p>
+                        <label for="gender">Gender: </label>
+                        <input type="radio" name="gender" id="gender" value="male">Male
+                        <input type="radio" name="gender" id="gender" value="female">Female
+                    </p>
+                    <p>
+                        <label for="fatherName">Enter Father Name:</label>
+                        <input type="text" name="fatherName" id="fatherName" placeholder="Enter Father name"></p>
+                        <p>
+                            <label for="motherName">Enter Mother Name:</label>
+                            <input type="text" name="motherName" id="motherName" placeholder="Enter Mother name">
+                        </p>
+                        <p>
+                            <label for="mobile">Mobile Number:</label>
+                            <input type="text" name="mobile" id="mobile" pattern="[0-9]{10}" placeholder="Enter Mobile Number">
+                        </p>
+                        <p>
+                            <label for="email">Email Id</label>
+                            <input type="email" name="email" id="name" placeholder="Enter Email Id" >
+                        </p>
+                        <p>
+                            <label for="percentage">Class 12<sup>th</sup> Percentage</label>
+                            <input type="number" name="percentage" id="percentage" placeholder="Example: 95">
+                        </p>
+                        <p>
+                            <label for="course">Course: </label>
+                            <select name="course" id="course">
+                                <option value="">Select Course</option>
+                                <option value="BCA"> BCA</option>
+                                <option value="BSc">BSc</option>
+                                <option value="BCom">BCom</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="firstlang">Select 2<sup>nd</sup> Language:</label>
+                            <input type="radio" name="firstlang" id="firstlang" value="Hindi">Hindi
+                            <input type="radio" name="firstlang" id="firstlang" value="Kannada">Kannada
+                            <input type="radio" name="firstlang" id="firstlang" value="Urdu">Urdu
+                        </p>
+                        <p>
+                            <label for="extra">Extra co-curriculum activities:</label>
+                            <input type="checkbox" name="extra" id="extra">Music
+                            <input type="checkbox" name="extra" id="extra">Sports
+                            <input type="checkbox" name="extra" id="extra">NCC/NSS
+                        </p>
+                        <p>
+                            <input type="submit" >
+                            <input type="reset" >
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </body>
+        </html>
